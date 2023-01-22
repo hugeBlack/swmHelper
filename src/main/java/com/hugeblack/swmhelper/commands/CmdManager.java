@@ -13,6 +13,7 @@ public class CmdManager implements CommandExecutor {
 
     static {
         commands.add(new GameRuleEditor());
+        commands.add(new LoadAll());
     }
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

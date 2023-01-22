@@ -36,6 +36,7 @@ public class GameRuleEditor extends BaseCmd{
                         else if(args[3].equals("false")) bukkitWorld.setGameRule(rule,false);
                         else return "boolean value required.";
                     }
+                    player.sendMessage(slimeWorld.getName()+"'s rule modified.");
                 }
                 return null;
             }else if(rule.getType()== Integer.class){
@@ -73,6 +74,7 @@ public class GameRuleEditor extends BaseCmd{
                 return "integer value required.";
             }
         }
+        player.sendMessage(args[1]+"'s rule modified.");
         return null;
     }
 
