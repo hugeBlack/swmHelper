@@ -1,0 +1,9 @@
+name: SwmHelper
+version: '${project.version}'
+main: com.hugeblack.swmhelper.SwmHelper
+api-version: 1.18
+commands:
+  swmhelper:
+    description: This is the main plugin command.
+    aliases: [swmh]
+    usage: /<command> [args]. Get this error? Then check your console as there was an error somewhere. Please report it here https://gcnt.net/discord !
